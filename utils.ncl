@@ -1,8 +1,20 @@
 
 
 ; UTILITY codes
-;
 
+
+; Taken from:....
+;----------------------------------------------------------------------
+; coneff_18.ncl
+;
+; Concepts illustrated:
+;   - Using functions for cleaner code
+;   - Setting contour line thicknesses and patterns
+;   - Using "setvalues" to set resource values
+;   - Using "getvalues" to retrieve resource values
+;   - Drawing partially transparent filled contours
+;----------------------------------------------------------------------
+;
 ;----------------------------------------------------------------------
 ; Function that retrieves contour levels from a plot and changes the
 ; the requested contour levels to the requested thicknesses.
